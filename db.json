@@ -1,0 +1,369 @@
+{
+    "usuarios": [
+        {
+            "id": "6a2cd0df8e1404.73139125",
+            "email": "lucaspaz4486@gmail.com",
+            "nome": "Lucas Paz",
+            "senha": "$2y$10$VjHoQUbWwpyDu57gPH7YxOuZQ2Q8ij11ugNos3LybU97YzTY8dabW",
+            "avatar": "🤖",
+            "status_operacional": "ausente",
+            "especialidades": "Formatação e Software, Limpeza Interna, Upgrade de Hardware"
+        },
+        {
+            "id": "6a2cd652143503.58484356",
+            "email": "pedro@gmail.com",
+            "nome": "Pedro",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "👨‍💻",
+            "status_operacional": "ausente",
+            "especialidades": "Reparo em Placas, Videogames"
+        },
+        {
+            "id": "usr_3",
+            "email": "ana.costa@lptech.com",
+            "nome": "Ana Costa",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "👩‍💻",
+            "status_operacional": "ocupado",
+            "especialidades": "Reparo em Apple (Mac\/iPhone), Troca de Tela \/ Display"
+        },
+        {
+            "id": "usr_4",
+            "email": "carlos.mendes@lptech.com",
+            "nome": "Carlos Mendes",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "🛠️",
+            "status_operacional": "disponivel",
+            "especialidades": "Solda BGA \/ SMD, Reparo de Placa-mãe"
+        },
+        {
+            "id": "usr_5",
+            "email": "mariana.silva@lptech.com",
+            "nome": "Mariana Silva",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "📱",
+            "status_operacional": "ausente",
+            "especialidades": "Troca de Tela \/ Display, Reparo de Smartphones Android"
+        },
+        {
+            "id": "usr_6",
+            "email": "roberto.nunes@lptech.com",
+            "nome": "Roberto Nunes",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "💻",
+            "status_operacional": "banheiro",
+            "especialidades": "Formatação e Software, Recuperação de Dados"
+        },
+        {
+            "id": "usr_7",
+            "email": "fernanda.lima@lptech.com",
+            "nome": "Fernanda Lima",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "🔋",
+            "status_operacional": "ausente",
+            "especialidades": "Limpeza Interna, Troca de Baterias"
+        },
+        {
+            "id": "usr_8",
+            "email": "diego.souza@lptech.com",
+            "nome": "Diego Souza",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "👾",
+            "status_operacional": "ocupado",
+            "especialidades": "Consoles, Reparo de Controles"
+        },
+        {
+            "id": "usr_9",
+            "email": "juliana.alves@lptech.com",
+            "nome": "Juliana Alves",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "👩‍💻",
+            "status_operacional": "disponivel",
+            "especialidades": "Upgrade de Hardware, Montagem de PC Gamer"
+        },
+        {
+            "id": "usr_10",
+            "email": "thiago.rocha@lptech.com",
+            "nome": "Thiago Rocha",
+            "senha": "$2y$10$1yiOxJpcPXONl1GXTIUGo.jbB.UoW0p1zBHcEcrZfevoAqs\/otHk2",
+            "avatar": "🛠️",
+            "status_operacional": "ocupado",
+            "especialidades": "Solda BGA \/ SMD, Microeletrônica"
+        }
+    ],
+    "ordens": [
+        {
+            "id": "os_1",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "Marcos Andrade",
+            "equipamento": "iPhone 11",
+            "defeito": "Tela trincada e ghost touch",
+            "status": "pendente",
+            "valor": 450,
+            "data_entrada": "2026-06-12"
+        },
+        {
+            "id": "os_2",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "Felipe Gomes",
+            "equipamento": "PS5 Edição Digital",
+            "defeito": "Superaquecimento e desligando sozinho",
+            "status": "pendente",
+            "valor": 350,
+            "data_entrada": "2026-06-12"
+        },
+        {
+            "id": "os_3",
+            "usuario_id": "usr_3",
+            "tecnico_abertura": "Ana Costa",
+            "cliente": "Cláudia Ribeiro",
+            "equipamento": "MacBook Air M1",
+            "defeito": "Teclado falhando algumas teclas",
+            "status": "pendente",
+            "valor": 980,
+            "data_entrada": "2026-06-11"
+        },
+        {
+            "id": "os_4",
+            "usuario_id": "usr_4",
+            "tecnico_abertura": "Carlos Mendes",
+            "cliente": "Tiago Valente",
+            "equipamento": "Placa de Vídeo RTX 3060",
+            "defeito": "Artefatos na tela (Memória VRAM)",
+            "status": "pendente",
+            "valor": 850,
+            "data_entrada": "2026-06-11"
+        },
+        {
+            "id": "os_5",
+            "usuario_id": "usr_5",
+            "tecnico_abertura": "Mariana Silva",
+            "cliente": "Julio Cesar",
+            "equipamento": "Samsung S22 Ultra",
+            "defeito": "Não carrega (Conector oxidado)",
+            "status": "pendente",
+            "valor": 280,
+            "data_entrada": "2026-06-11"
+        },
+        {
+            "id": "os_6",
+            "usuario_id": "usr_9",
+            "tecnico_abertura": "Juliana Alves",
+            "cliente": "Amanda Freitas",
+            "equipamento": "PC Gamer Ryzen 7",
+            "defeito": "Upgrade de Placa Mãe e Watercooler",
+            "status": "pendente",
+            "valor": 400,
+            "data_entrada": "2026-06-10"
+        },
+        {
+            "id": "os_7",
+            "usuario_id": "usr_6",
+            "tecnico_abertura": "Roberto Nunes",
+            "cliente": "Igor Martins",
+            "equipamento": "HD Externo Seagate 2TB",
+            "defeito": "Agulha presa (Recuperação de Dados)",
+            "status": "pendente",
+            "valor": 1200,
+            "data_entrada": "2026-06-10"
+        },
+        {
+            "id": "os_8",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "Renata Loures",
+            "equipamento": "Monitor LG Ultrawide 29",
+            "defeito": "Não liga (Capacitores estufados)",
+            "status": "pendente",
+            "valor": 300,
+            "data_entrada": "2026-06-09"
+        },
+        {
+            "id": "os_9",
+            "usuario_id": "usr_6",
+            "tecnico_abertura": "Roberto Nunes",
+            "cliente": "Empresa X",
+            "equipamento": "Notebook Lenovo IdeaPad",
+            "defeito": "Lentidão extrema (Formatação e Backup)",
+            "status": "andamento",
+            "valor": 180,
+            "data_entrada": "2026-06-12"
+        },
+        {
+            "id": "os_10",
+            "usuario_id": "usr_3",
+            "tecnico_abertura": "Ana Costa",
+            "cliente": "Bruno Dias",
+            "equipamento": "iPad Pro 11",
+            "defeito": "Troca de Bateria viciada",
+            "status": "andamento",
+            "valor": 650,
+            "data_entrada": "2026-06-12"
+        },
+        {
+            "id": "os_11",
+            "usuario_id": "usr_10",
+            "tecnico_abertura": "Thiago Rocha",
+            "cliente": "Luan Santana",
+            "equipamento": "Placa Mãe Asus TUF",
+            "defeito": "Pinos do socket tortos",
+            "status": "andamento",
+            "valor": 320,
+            "data_entrada": "2026-06-11"
+        },
+        {
+            "id": "os_12",
+            "usuario_id": "usr_8",
+            "tecnico_abertura": "Diego Souza",
+            "cliente": "Gabriel O Pensador",
+            "equipamento": "Nintendo Switch OLED",
+            "defeito": "Analógico (Joy-Con Drift)",
+            "status": "andamento",
+            "valor": 150,
+            "data_entrada": "2026-06-11"
+        },
+        {
+            "id": "os_13",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "Sérgio Mallandro",
+            "equipamento": "PC Office Intel i3",
+            "defeito": "Fonte queimada por raio",
+            "status": "andamento",
+            "valor": 220,
+            "data_entrada": "2026-06-10"
+        },
+        {
+            "id": "os_14",
+            "usuario_id": "usr_3",
+            "tecnico_abertura": "Ana Costa",
+            "cliente": "Rafael Torres",
+            "equipamento": "iPhone 13 Pro",
+            "defeito": "Troca de Vidro Traseiro (Laser)",
+            "status": "concluida",
+            "valor": 550,
+            "data_entrada": "2026-06-08",
+            "tecnico_conclusao_id": "6a2cd0df8e1404.73139125",
+            "tecnico_conclusao_nome": "Lucas Paz"
+        },
+        {
+            "id": "os_15",
+            "usuario_id": "usr_9",
+            "tecnico_abertura": "Juliana Alves",
+            "cliente": "Mariana Souza",
+            "equipamento": "MacBook Pro 2019",
+            "defeito": "Upgrade SSD NVMe",
+            "status": "concluida",
+            "valor": 800,
+            "data_entrada": "2026-06-08",
+            "tecnico_conclusao_id": "6a2cd652143503.58484356",
+            "tecnico_conclusao_nome": "Pedro"
+        },
+        {
+            "id": "os_16",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "João Gomes",
+            "equipamento": "Samsung A54",
+            "defeito": "Troca de Tela Completa",
+            "status": "concluida",
+            "valor": 600,
+            "data_entrada": "2026-06-07",
+            "tecnico_conclusao_id": "usr_3",
+            "tecnico_conclusao_nome": "Ana Costa"
+        },
+        {
+            "id": "os_17",
+            "usuario_id": "usr_8",
+            "tecnico_abertura": "Diego Souza",
+            "cliente": "Bárbara Evans",
+            "equipamento": "Xbox Series X",
+            "defeito": "Troca de Pasta Térmica",
+            "status": "concluida",
+            "valor": 250,
+            "data_entrada": "2026-06-07",
+            "tecnico_conclusao_id": "usr_4",
+            "tecnico_conclusao_nome": "Carlos Mendes"
+        },
+        {
+            "id": "os_18",
+            "usuario_id": "usr_5",
+            "tecnico_abertura": "Mariana Silva",
+            "cliente": "Victor Hugo",
+            "equipamento": "Xiaomi S21 FE",
+            "defeito": "Não lê o chip (Bandeja SIM)",
+            "status": "concluida",
+            "valor": 120,
+            "data_entrada": "2026-06-06",
+            "tecnico_conclusao_id": "usr_5",
+            "tecnico_conclusao_nome": "Mariana Silva"
+        },
+        {
+            "id": "os_19",
+            "usuario_id": "usr_9",
+            "tecnico_abertura": "Juliana Alves",
+            "cliente": "Luiz Barsi",
+            "equipamento": "PC Gamer Completo",
+            "defeito": "Montagem de peças novas e Cable Management",
+            "status": "concluida",
+            "valor": 350,
+            "data_entrada": "2026-06-06",
+            "tecnico_conclusao_id": "usr_6",
+            "tecnico_conclusao_nome": "Roberto Nunes"
+        },
+        {
+            "id": "os_20",
+            "usuario_id": "usr_10",
+            "tecnico_abertura": "Thiago Rocha",
+            "cliente": "Paula Fernandes",
+            "equipamento": "Placa de Vídeo RX 6700 XT",
+            "defeito": "Curto no conector Pcie de 8 pinos",
+            "status": "concluida",
+            "valor": 450,
+            "data_entrada": "2026-06-05",
+            "tecnico_conclusao_id": "usr_7",
+            "tecnico_conclusao_nome": "Fernanda Lima"
+        },
+        {
+            "id": "os_21",
+            "usuario_id": "6a2cd0df8e1404.73139125",
+            "tecnico_abertura": "Lucas Paz",
+            "cliente": "Ricardo Almeida",
+            "equipamento": "iPad Mini 6",
+            "defeito": "Vidro quebrado (Troca de Vidro Preservando LCD)",
+            "status": "concluida",
+            "valor": 700,
+            "data_entrada": "2026-06-05",
+            "tecnico_conclusao_id": "usr_8",
+            "tecnico_conclusao_nome": "Diego Souza"
+        },
+        {
+            "id": "os_22",
+            "usuario_id": "usr_4",
+            "tecnico_abertura": "Carlos Mendes",
+            "cliente": "Escola Y",
+            "equipamento": "5x Notebooks Dell",
+            "defeito": "Lote: Baterias estufadas",
+            "status": "concluida",
+            "valor": 1500,
+            "data_entrada": "2026-06-04",
+            "tecnico_conclusao_id": "usr_9",
+            "tecnico_conclusao_nome": "Juliana Alves"
+        },
+        {
+            "id": "os_23",
+            "usuario_id": "usr_5",
+            "tecnico_abertura": "Mariana Silva",
+            "cliente": "Luciana Silva",
+            "equipamento": "iPhone 12",
+            "defeito": "Câmera traseira tremendo (Foco Automático)",
+            "status": "concluida",
+            "valor": 380,
+            "data_entrada": "2026-06-04",
+            "tecnico_conclusao_id": "usr_10",
+            "tecnico_conclusao_nome": "Thiago Rocha"
+        }
+    ]
+}
